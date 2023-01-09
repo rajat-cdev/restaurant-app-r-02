@@ -1,11 +1,15 @@
-import './App.css';
+import Navbar from './components/Navbar';
+import Routers from './components/Routers';
+import Footer from './components/Footer';
+import './App.css'
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      HomePage
-    </div>
+    <>
+      <Navbar/>
+      <Routers />
+      <Footer />
+    </>
   );
 }
-
-export default App;
